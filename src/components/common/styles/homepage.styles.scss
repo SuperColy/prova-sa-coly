@@ -1,0 +1,33 @@
+.black-bg-container {
+  position: relative;
+  width: 100%;
+  box-sizing: border-box;
+  min-height: 250px;
+  background-color: #000;
+  text-align: center;
+  padding: 100px 1rem 45vw 1rem;
+
+  .quote-anim p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 150%;
+
+    br {
+      display: none;
+    }
+  }
+}
+
+@media (min-width: 900px) {
+  .black-bg-container {
+    padding: 250px 2rem 40vw 2rem;
+
+    .quote-anim p {
+      font-size: 1.6rem;
+
+      br {
+        display: inline-block;
+      }
+    }
+  }
+}
